@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewAP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C346 Android Programming"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewITSM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C235 IT Security and Management"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/textViewWAD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C203 Web AppIn Development in php"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/textViewSDP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C206 Software Development Process"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/textViewUIUX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C218 UI/UX Design for Apps"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>
